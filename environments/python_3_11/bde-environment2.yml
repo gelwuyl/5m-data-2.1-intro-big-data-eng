@@ -1,0 +1,27 @@
+name: bde
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pyarrow
+  - grpcio
+  - grpcio-tools
+  - google-cloud-storage
+  - pandas
+  - duckdb-engine
+  - python-duckdb
+  - sqlalchemy
+  - beautifulsoup4
+  - fastavro
+  - ipykernel
+  - matplotlib
+  - pymongo
+  - pytest
+  - python-dotenv
+  - python-snappy
+  - redis-py
+  - requests
+  - thriftpy2
+  - pip
+prefix: /home/ds3/miniconda3/envs/bde
